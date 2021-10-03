@@ -11,7 +11,7 @@ setuptools.setup(
     version='11.2.0',
     long_description=long_description,
     long_description_content_type='text/markdown',
-	packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(),
     description = 'Customer identity and access management for Python.',
     author='LoginRadius',
     author_email='developers@loginradius.com',
@@ -23,9 +23,15 @@ setuptools.setup(
             'pbkdf2',
             'flask',
             ],
-    classifiers=['Programming Language :: Python', 'Programming Language :: Python :: 2.7',
-                 'Operating System :: OS Independent', 'License :: OSI Approved :: MIT License',
-                 'Development Status :: 5 - Production/Stable', 'Intended Audience :: Developers',
-                 'Topic :: Internet', 'Topic :: Internet :: WWW/HTTP',
-                 'Topic :: Software Development :: Libraries :: Python Modules']
+    classifiers=[
+	    'Programming Language :: Python',
+	    'Programming Language :: Python :: 2.7',
+            'Operating System :: OS Independent',
+	    'License :: OSI Approved :: MIT License',
+            'Development Status :: 5 - Production/Stable',
+	    'Intended Audience :: Developers',
+            'Topic :: Internet',
+	    'Topic :: Internet :: WWW/HTTP',
+	    'Topic :: Software Development :: Libraries :: Python Modules'
+    		]
 )
